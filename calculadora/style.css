@@ -1,0 +1,69 @@
+/*Body*/
+body {/*Corpo site*/
+    background-image: linear-gradient(90deg, #00B4DB, #0083b0);/*Cor fundo*/
+    color: white;/*Cor fonte*/
+    text-align: center;
+}
+
+/*Title*/
+#title {/*Title*/
+    margin-top: 40px;/*Margem acima*/
+    margin-bottom: 10px;/*Margem abaixo*/
+}
+
+/*Box*/
+.box {/*Box*/
+    background-image: linear-gradient(90deg, #000000, #434343);/*Cor box*/
+    position: absolute;/*Posição em relação aos elementos*/
+    padding: 30px;/*Distância entre os elementos*/
+    border-radius: 15px;/*Bordas redondas*/
+    top: 55%;/*Acima*/
+    left: 50%;/*Esquerda*/
+    transform: translate(-50%, -50%);/*Ajuste posição*/
+    padding-bottom: 60px;
+}
+
+/*Input 1*/
+#input1 {/*Input 1*/
+    padding: 15px;/*Tamanho do input*/
+    border: none;/*Borda nula*/
+    outline: none;/*Linha de fora nula*/
+    width: 80%;/*Largura*/
+    border-radius: 15px;/*Bordas redondas*/
+}
+/*Input 2*/
+#input2 {/*Input 2*/
+    padding: 15px;/*Tamanho do input*/
+    border: none;/*Borda nula*/
+    outline: none;/*Linha de fora nula*/
+    width: 80%;/*Largura*/
+    border-radius: 15px;/*Bordas redondas*/
+}
+
+/*Resultado*/
+h2 {/*H2 resultado*/
+    color: white;/*Cor fonte*/
+    text-align: center;
+}
+
+/*Botão*/
+button {/*Botão*/
+    padding: 15px;/*Tamanho botão*/
+    border-radius: 15px;/*Bordas redondas*/
+    width: 70px;/*Largura*/
+    cursor: pointer;/*Cursor sobre o botão*/
+    font-size: 15px;/*Tamanho da fonte*/
+    margin-bottom: -15px;
+}
+/*Hover*/
+button:hover {/*Hover do botão*/
+    cursor: pointer;/*Cursor sobre o botão*/
+    background-color: green;/*Cor de fundo sobre o botão*/
+    color: white;/*Cor da fonte sobre o botão*/
+    border: none;/*Borda nula*/
+    outline: none;/*Linha de fora nula*/
+}
+
+#botoes3{
+    width: 150px;
+}
